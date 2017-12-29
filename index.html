@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Solar Staff</title>
+</head>
+<body>
+<header class="header">
+    <div class="container d-flex justify-content-between align-items-center h-100">
+        <div class="header-logo">
+            <a href="#">
+                <img src="img/logo.svg" alt="">
+            </a>
+        </div>
+        <div class="nav"></div>
+    </div>
+</header>
+<div id="solar-page">
+
+    <div class="section" id="section0">
+        <div class="main-video">
+            <video id="solarVideo" loop muted data-autoplay current-time="10">
+                <source src="img/solar.mp4" type="video/mp4">
+                <source src="img/solar.webm" type="video/webm">
+            </video>
+        </div>
+        <div class="layer d-flex align-items-center">
+            <div class="w-100">
+                <div class="intro d-flex align-items-center container">
+                    <h1>Передайте нам оформление работ </h1>
+
+                    <div class="typed">
+                        <span class="item active">фрилансеров</span>
+                        <span class="item">внештатных сотрудников</span>
+                        <span class="item">дизайнеров</span>
+                        <span class="item">копирайтеров</span>
+                    </div>
+                </div>
+                <div class="play-button" id="play"></div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="section" id="section1">
+        <div class="intro container d-flex align-items-center h-100">
+            <div>
+                <h1 class="classic--title">Что делает Solar Staff?</h1>
+                <blockquote class="blcq">
+                    С Solar Staff вам не придется думать о том, как “провести по бухгалтерии” работы, выполненные
+                    фрилансерами.<br/>
+                    Мы за пару кликов превратим ваши задачи в юридически значимые контракты
+                    и заплатим исполнителям, когда работа будет выполнена.
+                </blockquote>
+                <div class="d-flex justify-content-between list-items">
+                    <div class="box">
+                        <div class="d-flex head-block">
+                            <strong class="head-block__num">
+                                1
+                            </strong>
+                            <div>
+                                Оформляем отношения<br>
+                                с исполнителями
+                            </div>
+                        </div>
+                        <p>
+                            Вы один раз заключаете договор с Solar Staff, вместо новых договоров на каждую работу.
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="d-flex head-block">
+                            <strong class="head-block__num">
+                                2
+                            </strong>
+                            <div>
+                                Формируем из ваших<br/>
+                                задач контракты
+                            </div>
+                        </div>
+                        <p>
+                            Мы автоматически сформируем из ваших задач контракты и подпишем их с исполнителями работ.
+                        </p>
+                    </div>
+                    <div class="box">
+                        <div class="d-flex head-block">
+                            <strong class="head-block__num">
+                                3
+                            </strong>
+                            <div>
+                                Готовим отчетные<br/>
+                                документы
+                            </div>
+                        </div>
+                        <p>
+                            В начале каждого месяца мы пришлем вам сводную отчетность по всем выполненным работам.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <img src="img/schem.svg" alt="" class="schema-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section2">
+        <div class="intro container d-flex align-items-center h-100">
+            <div>
+                <h1 class="classic--title">Как работает Solar Staff?</h1>
+                <div class="d-flex">
+                    <div class="left-column">
+                        <div class="left-column__box">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="left-column__box-info">
+                                    <strong>Постановка задачи</strong>
+                                    <p>
+                                        Опишите, что будет сделано, укажите стоимость работ
+                                        и пригласите исполнителя. При регистрации он с офертой
+                                        и становится субподрядчиком Solar Staff.
+                                    </p>
+                                </div>
+                                <img src="img/contract.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="left-column__box">
+                            <div class="d-flex align-items-center">
+                                <div class="left-column__box-info">
+                                    <strong>Оплата</strong>
+                                    <p>
+                                        Пополните баланс Solar Staff переводом со своего юрлица
+                                        по договору, который мы подпишем в начале сотрудничества. Когда работа будет
+                                        выполнена, нажмите “оплатить”, и ваши исполнители получат деньги на карты,
+                                        привязанные
+                                        при регистрации.
+                                    </p>
+                                </div>
+                                <img src="img/results-work.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="left-column__box">
+                            <div class="d-flex justify-content-between  align-items-center">
+                                <div class="left-column__box-info">
+                                    <strong>Отчетные документы</strong>
+                                    <p>
+                                        В начале следующего месяца вы получите от Solar Staff акты
+                                        и счета-фактуры на выполненные работы. По этим актам вы
+                                        и ваши клиенты сможете принять НДС к зачету – потому что Solar Staff выплачивает
+                                        НДС
+                                        в бюджет до копейки.
+                                    </p>
+                                </div>
+                                <img src="img/july10.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section3">
+        <div class="intro container d-flex align-items-center h-100">
+            <div>
+                <h1 class="classic--title">Для кого работает Solar Staff?</h1>
+                <div class="d-flex tab-dflex">
+                    <div class="sidebar">
+                        <div class="d-flex align-items-center h-100">
+                            <ul class="sidebar-nav" id="myTab" role="tablist">
+                                <li class="active" data-toggle="tab" href="#tab-1" role="tab" aria-selected="true">
+                                    <a href="#">Агентства и студии</a>
+                                </li>
+                                <li data-toggle="tab" href="#tab-2" role="tab" aria-selected="false">
+                                    <a href="#">Е коммерс</a>
+                                </li>
+                                <li data-toggle="tab" href="#tab-3" role="tab" aria-selected="false">
+                                    <a href="#">Разработка ПО</a>
+                                </li>
+                                <li data-toggle="tab" href="#tab-4" role="tab" aria-selected="false">
+                                    <a href="#">Крупный бизнес</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+                            <div class="d-flex align-items-center">
+                                <div class="description">
+                                    <div class="d-flex align-items-center h-100">
+                                        <div class="jse">
+                                            <p>
+                                                Выполняйте работы с лучшими и не думайте, есть ли у них ИП.
+                                            </p>
+                                            <p>
+
+                                                Solar Staff возьмет на себя оформление работ блоггеров,
+                                                дизайнеров, копирайтеров и любых фрилансеров.
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    Прокьюрмент Pepsico не поморщится от закрывашек
+                                                    на размещения у блоггеров
+                                                </li>
+                                                <li>
+
+                                                    Работу дизайнера из Одессы можно оплатить
+                                                    за несколько кликов
+                                                </li>
+                                                <li>
+
+                                                    Бухгалтерия уйдет домой в 18:00 после ивента на 300 человек
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-img" style="background-image: url(img/s-1.jpg)"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-2" role="tabpanel">
+                            <div class="d-flex align-items-center">
+                                <div class="description">
+                                    <div class="d-flex align-items-center h-100">
+                                        <div class="jse">
+                                            <p>
+                                                Заказывайте нужные работы и не беспокойтесь о закрывающих
+                                                документах.
+                                            </p>
+                                            <p>
+                                                Дизайн баннеров или наполнение каталогов, seo-оптимизация
+                                                или создание контента – Solar Staff возьмет на себя
+                                                оформление работ внештатных исполнителей.
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    Работа временных курьеров, привлеченных на
+                                                    Новый год, правильно оформлена и оплачена безналом
+                                                </li>
+                                                <li>
+                                                    Отчетные документы на работы по проведению seo-оптимизации сайта не
+                                                    вызовут смеха в налоговой
+                                                </li>
+                                                <li>
+                                                    Ведение бухгалтерской отчетности не требует героизма
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-img" style="background-image: url(img/s-2.jpg)"></div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-3" role="tabpanel">
+                            <div class="d-flex align-items-center">
+                                <div class="description">
+                                    <div class="d-flex align-items-center h-100">
+                                        <div class="jse">
+                                            <p>
+                                                Бюрократические процедуры должны быть невидимыми
+                                            </p>
+                                            <p>
+                                                Solar Staff решает вопрос оформления взаимоотношений с вашими
+                                                разработчиками без тонны бумаг и сомнительных лазеек в законе.
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    Юридическое оформление задач внештатных
+                                                    разработчиков не отнимает время
+                                                </li>
+                                                <li>
+                                                    Передать заказчику авторские права на код можно
+                                                    за 1 клик
+                                                </li>
+                                                <li>
+                                                    Сотрудники из других городов и стран получают деньги прямо на карты
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-img" style="background-image: url(img/s-3.jpg)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-4" role="tabpanel">
+                            <div class="d-flex align-items-center">
+                                <div class="description">
+                                    <div class="d-flex align-items-center h-100">
+                                        <div class="jse">
+                                            <p>
+                                                Автоматизация и юридическая прозрачность оформления любого числа работ.
+                                            </p>
+                                            <p>
+                                                Solar Staff позволит вам избавить юридический и финансовый департаменты
+                                                от бессмысленного труда.
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    Можно за 1 день оформить работу 50 региональных
+                                                    представителей, не вызывая их в офис
+                                                </li>
+                                                <li>
+                                                    Больше не нужно согласовывать документы на каждую
+                                                    мелкую работу
+                                                </li>
+                                                <li>
+                                                    Разделить прием и оплату между отделами просто
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bg-img" style="background-image: url(img/s-4.jpg)">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section" id="section4">
+        <div class="intro container d-flex align-items-center h-100">
+            <div class="w-100">
+                <h1 class="classic--title">Ответы на 11 главных вопросов</h1>
+                <div id="accordion" role="tablist">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingOne">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseOne">
+                                Сколько стоят ваши услуги?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                От 12% + НДС. Напишите нам в чат, и мы за 5 минут выясним, сколько для вас будет стоить
+                                наш сервис и нужен ли он вам.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="headingTwo">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseTwo">
+                                Можно ли работать без НДС? У меня компания на УСН.
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Нет. Мы работаем на ОСН и платим НДС в бюджет до копейки.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseThree">
+                                Могу ли я оформлять работу штатных сотрудников через Solar Staff?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Нет. К сожалению, через Solar Staff можно оформлять только работы временных и/или
+                                удаленных исполнителей. Чтобы узнать подробности, свяжитесь с нами в чате.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseFour">
+                                У наших клиентов жесткие требования к отчетности третьих лиц. Сможете ли вы
+                                предоставлять нам закрывающие документы в нужном формате?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse" role="tabpanel"
+                             data-parent="#accordion">
+                            <div class="card-body">
+                                Да, сможем. Наши закрывающие документы полностью соответствуют требованиям
+                                бухгалтерского и налогового учета РФ.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseFive">
+                                Могу ли я оформить через вас строительные работы? У меня отличные ребята, из
+                                Узбекистана.
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseFive" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Нет. И дело не в гражданстве исполнителей. Мы можем оформлять работу граждан любых
+                                стран. Solar Staff не работает с теми видами работ и услуг, которые требуют от
+                                исполнителя наличия лицензий, допусков или разрешений. В этот список попадают
+                                строительные работы, пассажирские и грузовые перевозки (3,5+ тонн), медицинские услуги,
+                                охранная деятельность и т.д.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseSix">
+                                Что нужно будет сделать фрилансерам, чтобы начать работать через Solar Staff?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseSix" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Нужно будет зарегистрироваться в сервисе и привязать карту или электронный кошелек. И
+                                загрузить скан паспорта, если вам потребуется отчуждать у них авторские права на
+                                выполненные работы. Приезжать в офис или отправлять какие-то документы по почте не
+                                нужно.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseSeven">
+                                Один из наших ведущих разработчиков живет с семьей в Никарагуа. Вы сможете доставлять
+                                ему деньги?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseSeven" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Да! Мы можем доставлять деньги на карточки MasterCard и VISA, выпущенные любым банком
+                                Земли.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseEight">
+                                Как происходит передача авторских прав?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseEight" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Возможность передачи исключительных интеллектуальных прав на результаты работ заложена в
+                                договоре с исполнителем. Если такая передача необходима, то всё, что от вас требуется, –
+                                поставить галочку при постановке задачи.
+                                Исполнитель должен будет добавить в систему скан паспорта (всего 1 раз), загрузить
+                                результаты работ (либо ссылку на результаты, если речь идет о большом объеме данных) и
+                                нажать “ок”.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseNine">
+                                Мы работаем с очень серьезными заказчиками из США. Является ли подобная передача прав
+                                легитимной в точки зрения американского законодательства?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseNine" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Да. Методика передачи интеллектуальных прав на результаты работ полностью соответствует
+                                не только российскому, но и международному праву.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseTen">
+                                Наши фрилансеры будут видны другим компаниям-клиентам?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseTen" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Нет. Исполнители доступны только тем компаниям, которые их пригласили.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseEleven">
+                                Работы фрилансеров нужны нам редко, но всегда срочно. Имеет ли нам смысл с вами
+                                сотрудничать?
+                                <img class="arrow" src="img/small-arrow.svg">
+                            </a>
+                        </div>
+                        <div id="collapseEleven" class="collapse" role="tabpanel" data-parent="#accordion">
+                            <div class="card-body">
+                                Да! Мы берем не плату за подключение или обслуживание, а разумную комиссию от оборота.
+                                Вы можете заключить договор сейчас, а начать пользоваться сервисом в тот момент, когда
+                                вам внезапно потребуются фрилансеры.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer section">
+        <div class="intro container">
+            <p>Хотите узнать стоимость, посмотреть закрывающие документы или получить тестовый доступ?</p>
+            <p>Оставьте свои контакты в чате – мы ответим в течение рабочего дня.</p>
+        </div>
+    </div>
+</div>
+<div class="fixed-arr"></div>
+<script src="js/libs.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    window.intercomSettings =
+
+        {app_id: "wqyohxil"}
+    ;
+</script>
+<script>(function () {
+    var w = window;
+    var ic = w.Intercom;
+    if (typeof ic === "function") {
+        ic('reattach_activator');
+        ic('update', intercomSettings);
+    }
+    else {
+        var d = document;
+        var i = function () {
+                i.c(arguments)
+            }
+        ;i.q = [];
+        i.c = function (args) {
+            i.q.push(args)
+        }
+        ;w.Intercom = i;
+
+        function l() {
+            var s = d.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = 'https://widget.intercom.io/widget/wqyohxil';
+            var x = d.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        }
+
+        if (w.attachEvent) {
+            w.attachEvent('onload', l);
+        }
+        else {
+            w.addEventListener('load', l, false);
+        }
+    }
+})()</script>
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+            n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        }
+        ;
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version =‘2.0’;
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document,‘script’,
+    ’https://connect.facebook.net/en_US/fbevents.js');
+        fbq(‘init’, ‘1657886837821060’)
+    ;
+    fbq(‘track’, ‘PageView’)
+    ;
+</script>
+<noscript><img height=“1” width=“1" style=“display:none”
+               src=“https://www.facebook.com/tr?id=1657886837821060&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=“https://www.googletagmanager.com/gtag/js?id=UA-61863440-1“></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag(‘js’,
+    new Date()
+    )
+    ;
+
+    gtag(‘config’, ‘UA - 61863440 - 1’)
+    ;
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type=“text/javascript”> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter29709265 = new Ya.Metrika(
+
+{ id:29709265, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }
+); } catch(e) { } }); var n = d.getElementsByTagName(“script”)[0], s = d.createElement(“script”), f = function ()
+
+{ n.parentNode.insertBefore(s, n); }
+; s.type = “text/javascript”; s.async = true; s.src = “https://mc.yandex.ru/metrika/watch.js“; if (w.opera == “[object Opera]“)
+
+{ d.addEventListener(“DOMContentLoaded”, f, false); }
+else
+
+{ f(); }
+})(document, window, “yandex_metrika_callbacks”);
+</script>
+<noscript>
+    <div>
+        <img src=“https://mc.yandex.ru/watch/29709265” style=“position:absolute; left:9999px;” alt=“” />
+    </div>
+</noscript>
+<!-- Yandex.Metrika counter -->
+</body>
+</html>
